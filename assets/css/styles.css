@@ -123,8 +123,7 @@ img {
 }
 
 .article-title,
-.article-title-center,
-.profile__social {
+.article-title-center {
   font-size: var(--h2-font-size);
   color: var(--title-color);
   text-align: center;
@@ -372,7 +371,8 @@ img {
 }
 
 .profile__title,
-.profile__description {
+.profile__description,
+.profile__social {
   color: #fff;
 }
 
@@ -414,12 +414,11 @@ img {
 
 .profile__social {
   font-size: 1.5rem;
-  color: var(--body-color);
   margin-right: var(--mb-3);
 }
 
 .profile__social:hover {
-  color: var(--title-color);
+  color: var(--first-color);
 }
 
 /*------- FOOTER -------*/
