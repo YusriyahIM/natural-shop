@@ -60,11 +60,11 @@ html {
 
 /*------- Dark theme -------*/
 body.dark-theme {
-  --first-color-profile: #161212;
-  --title-color: #f3f1f1;
-  --text-color: #d1c7c8;
-  --body-color: #251d1e;
-  --container-color: #302728;
+  --first-color-profile: #141612;
+  --title-color: #f2f3f1;
+  --text-color: #c7d1c8;
+  --body-color: #1d251e;
+  --container-color: #2c3027;
 }
 
 /*------- Button Dark/Light -------*/
@@ -176,7 +176,7 @@ img {
     text-align: center;
     background-color: var(--body-color);
     transition: 0.4s;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 1 0 10px rgba(46, 48, 46, 0.1);
     border-radius: 2rem;
     z-index: var(--z-fixed);
   }
@@ -219,16 +219,16 @@ img {
   content: "";
   position: absolute;
   bottom: -0.75rem;
-  left: 45%;
-  width: 5px;
+  left: 30%;
+  width: 20px;
   height: 5px;
   background-color: var(--title-color);
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 /* Change background header */
 .scroll-header {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px var(--first-color);
 }
 
 /* Scroll top */
@@ -285,7 +285,7 @@ img {
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
   font-weight: var(--font-semi-bold);
@@ -331,12 +331,12 @@ img {
   text-align: center;
   padding: 1rem 1rem 2rem;
   background-color: var(--container-color);
-  box-shadow: 0 2px 6px rgba(65, 11, 16, 0.15);
+  box-shadow: 0 2px 6px rgba(22, 65, 11, 0.15);
   border-radius: 1rem;
 }
 
 .product__data:hover {
-  box-shadow: 0 3px 12px rgba(65, 11, 16, 0.15);
+  box-shadow: 0 3px 12px rgba(20, 65, 11, 0.692);
 }
 
 .product__img {
@@ -373,7 +373,7 @@ img {
 .profile__title,
 .profile__description,
 .profile__social {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .profile__description {
@@ -384,7 +384,7 @@ img {
 .profile__direction {
   display: flex;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
@@ -464,6 +464,7 @@ img {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
   margin-top: 4rem;
+  box-sizing: 0px 2px 0 var(--first-color);
 }
 
 /*------- MEDIA QUERIES -------*/
